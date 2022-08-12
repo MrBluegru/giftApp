@@ -1,0 +1,42 @@
+.Landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #2b2b2b41 0%, #0000005f 80%),
+    url("https://media1.giphy.com/media/l0NwGpoOVLTAyUJSo/giphy.gif?cid=790b761125b8a3d8f424920d4274c3e16a3d0e7c35bd2679&rid=giphy.gif&ct=g");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo {
+  font-family: fantasy;
+  font-size: 5rem;
+  color: #fff;
+  margin-bottom: 1px;
+}
+
+.subtitulo {
+  margin-top: 1px;
+  margin-left: 15rem;
+  font-family: fantasy;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.botonG {
+  font-size: 2rem;
+  font-family: fantasy;
+  border-radius: 5px;
+  background-color: rgb(38, 111, 219);
+  cursor: pointer;
+}
+
+.dev {
+  font-family: fantasy;
+  font-size: 2rem;
+  color: rgb(38, 111, 219);
+}
